@@ -1,10 +1,10 @@
-# Climate Tracker for Agriculture 🌾
+# Climate Tracker for Agriculture 
 
 **Live Demo:** https://react-js-jsx-and-css-mastering-fron-blond-eight.vercel.app/
 
 A fully responsive web application built with React.js and Tailwind CSS that helps farmers and agribusinesses monitor real-time climate and weather conditions critical for crop growth and farm planning.
 
-## Features ✨
+## Features 
 
 - **Location Search** – Type any city worldwide and get instant weather data
 - **Real-time Climate Data** powered by the Open-Meteo API (no API key required)
@@ -22,7 +22,7 @@ A fully responsive web application built with React.js and Tailwind CSS that hel
   - `/details/:location` → Detailed climate view
   - `/about` → About page
 
-## Tech Stack 🛠️
+## Tech Stack 
 
 - **React 18** + Vite (fast development & build)
 - **Tailwind CSS** for styling
@@ -34,14 +34,15 @@ A fully responsive web application built with React.js and Tailwind CSS that hel
 - **Custom Hook** (`useClimateData`) for reusable data fetching logic
 
 ## Project Structure
+```plaintext
 src/
-├── api/              → API functions (Open-Meteo integration)
-├── components/       → Reusable UI components (Navbar, SearchBar, Cards, etc.)
+├── api/              → Open-Meteo API calls
+├── components/       → Navbar, SearchBar, WeatherCard, ForecastCard, etc.
 ├── context/          → ThemeContext (dark/light mode)
-├── hooks/            → Custom hooks (useClimateData)
-├── pages/            → Page components (Dashboard, Details, About)
+├── hooks/            → useClimateData custom hook
+├── pages/            → Dashboard, Details, About
 ├── utils/            → Helper functions
-├── App.jsx           → Main app + routing
+├── App.jsx           → Routing & layout
 └── main.jsx          → Entry point
 
 ## How to Run Locally
@@ -59,4 +60,4 @@ Deployed on Vercel
 Every push to the main branch automatically redeploys the app.
 Author
 JMuli – PLP Academy MERN FullStack Week 3 Assignment
-100% complete, fully functional, and deployed with live demo ✅
+100% complete, fully functional, and deployed with live demo 
