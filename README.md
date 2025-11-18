@@ -34,16 +34,15 @@ A fully responsive web application built with React.js and Tailwind CSS that hel
 - **Custom Hook** (`useClimateData`) for reusable data fetching logic
 
 ## Project Structure
--src/
--├── api/              → API functions (Open-Meteo integration)
--├── components/       → Reusable UI components (Navbar, SearchBar, Cards, etc.)
--├── context/          → ThemeContext (dark/light mode)
--├── hooks/            → Custom hooks (useClimateData)
--├── pages/            → Page components (Dashboard, Details, About)
--├── utils/            → Helper functions
--├── App.jsx           → Main app + routing
--└── main.jsx          → Entry point
-
+src/
+├── api/              → API functions (Open-Meteo integration)
+├── components/       → Reusable UI components (Navbar, SearchBar, Cards, etc.)
+├── context/          → ThemeContext (dark/light mode)
+├── hooks/            → Custom hooks (useClimateData)
+├── pages/            → Page components (Dashboard, Details, About)
+├── utils/            → Helper functions
+├── App.jsx           → Main app + routing
+└── main.jsx          → Entry point
 
 ## How to Run Locally
 
