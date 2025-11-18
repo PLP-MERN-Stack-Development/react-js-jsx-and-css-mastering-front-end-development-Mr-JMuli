@@ -1,4 +1,5 @@
-# Climate Tracker for Agriculture 
+# FarmCast
+# Climate Tracker for Farmers 
 
 **Live Demo:** https://react-js-jsx-and-css-mastering-fron-blond-eight.vercel.app/
 
