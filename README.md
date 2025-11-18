@@ -51,11 +51,12 @@ src/
 git clone <your-repo-url>
 cd <your-repo-folder>
 npm install
-npm run dev```
+npm run dev
+```
 
 Open http://localhost:5173
 
-##Deployment
+## Deployment
 
 Deployed on Vercel
 Every push to the main branch automatically redeploys the app.
