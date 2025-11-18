@@ -44,7 +44,7 @@ src/
 ├── utils/            → Helper functions
 ├── App.jsx           → Routing & layout
 └── main.jsx          → Entry point
-
+```
 ## How to Run Locally
 
 ```bash
