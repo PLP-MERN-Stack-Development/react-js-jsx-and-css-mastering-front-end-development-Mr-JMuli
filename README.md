@@ -60,6 +60,6 @@ Open http://localhost:5173
 
 Deployed on Vercel
 Every push to the main branch automatically redeploys the app.
-Author
+## Author
 JMuli – PLP Academy MERN FullStack Week 3 Assignment
 100% complete, fully functional, and deployed with live demo 
